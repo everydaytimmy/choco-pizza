@@ -1,6 +1,8 @@
 
 .logo{
 display: flex;
+flex:1;
+float:left;
 
 }
 
@@ -14,37 +16,56 @@ display: flex;
 }
 
 .sublogo{
-  font-size: .5rem;
+  font-size: .6rem;
   font-family: sans-serif;
   color: gray
-  
 }
 
 header{
   display: flex;
-  justify-content: space-evenly
-
+  width: 900px;
+  margin: auto;
 }
 
-.banner{
-  background-repeat: repeat;
-  width: 20rem;
+.social-media{
+  float: right;
+  padding-top: 10px;
 }
 
 .headline{
-    display: flex;
-    align-items: center;
+  width: 900px;
+  margin: auto;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.title{
+  flex:1;
   }
 
-  .hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .banner{
-    height: .75rem;
-    width: 900px;
-    background-image: url('img/hr-img.png');
-    background-repeat: repeat;
-  }
+.banner{
+  height: .75rem;
+  width: 900px;
+  margin: auto;
+  margin-top:2rem;
+  margin-bottom:3rem;
+  background-image: url('img/hr-img.png');
+}
+
+.byline-container {
+  width: 900px;
+  margin: auto;
+  display:flex;
+  color: rgb(175, 170, 170);
+  font-family: sans-serif;
+  font-size: .75rem;
+  margin-bottom: 2rem;
+  margin-top: .5rem;
+}
