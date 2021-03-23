@@ -69,3 +69,76 @@ header{
   margin-bottom: 2rem;
   margin-top: .5rem;
 }
+
+article {
+  width: 900px;
+  margin: auto;
+}
+
+article p {
+  text-indent: 20px;
+  margin-top: 1.5rem;
+  color: gray;
+  font-size: 1rem;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  
+}
+
+.list {
+  width: 900px;
+  margin: auto;
+  margin-top: 1rem
+}
+
+.ingredients{
+  display: flex;
+  flex:1;
+  width: 900px;
+  margin: auto;
+  justify-content: space-evenly;
+  font-family: 'Kiwi Maru', serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-top: -15rem;
+  margin-bottom: 10rem;
+}
+
+li {
+  margin: 10px;
+}
+
+.footer{
+  text-align: center;
+}
+
+.footer img{
+  border-width: thick;
+}
+
+.about-me {
+  display: flex;
+  width: 900px;
+  margin: auto;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+}
+
+.name{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.author-details{
+  display:flex;
+  flex:1;
+}
+
+.share-recipe-btn {
+  background-color: #bc7058;
+  border: none;
+  color: white;
+}
